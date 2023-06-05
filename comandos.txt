@@ -1,28 +1,31 @@
  mkdir 20230605-JairoRocano
-  915  cd 20230605-JairoRocano/
-  916  git init
-  918  git remote add origin git@github.com:Ftnt/20230605-JairoRocano.git\ngit push -u origin main
-  919  git status
-  920  touch comandos.txt main.js index.html
-  921  ls
-  922  git add -A
-  923  git branch -M main
-  925  git remote --verbose
-  926  git status
-  927  git commit -m "commit 01 de jairoRocano"
-  928  git push
-  929  git push --set-upstream origin main
-  930  git checkout -b feature
-  931  mkdir Hadware Software SeguridadInformatica
-  932  touch Hadware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
-  933  git add -A
-  934  git commit -m "commit 02 de jairoRocano"
-  935  git push
-  936  git push --set-upstream origin feature
-  937  git checkout main
-  938  ls
-  939  mv main.js resumenHardware.txt
-  940  ls
-  941  mv index.html resumenSoftware.txt
-  942  ls
-  943  code .
+ cd 20230605-JairoRocano/
+ git init
+ git remote add origin git@github.com:Ftnt/20230605-JairoRocano.git\ngit push -u origin main
+ git status
+ touch comandos.txt main.js index.html
+ ls
+ git add -A
+ git branch -M main
+ git remote --verbose
+ git status
+ git commit -m "commit 01 de jairoRocano"
+ git push
+ git push --set-upstream origin main
+ git checkout -b feature
+ mkdir Hadware Software SeguridadInformatica
+ touch Hadware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
+ git add -A
+ git commit -m "commit 02 de jairoRocano"
+ git push
+ git push --set-upstream origin feature
+ git checkout main
+ ls
+ mv main.js resumenHardware.txt
+ ls
+ mv index.html resumenSoftware.txt
+ ls
+ code .
+ git add -A
+ git commit -m "commit 03 de jairoRocano"
+ git push
